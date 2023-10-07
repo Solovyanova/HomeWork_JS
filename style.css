@@ -73,6 +73,10 @@ body{
     margin-top: 44px;
 }
 
+.form_button:hover{
+    background: #EB443F;
+}
+
 .a_header{
     color: #FFF;
     font-family: Montserrat;
@@ -111,6 +115,11 @@ body{
     line-height: 32px;
     padding-left: 32px;
     padding-bottom: 32px;
+}
+
+.for_item:hover{
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
 }
 
 .for_item_1{
