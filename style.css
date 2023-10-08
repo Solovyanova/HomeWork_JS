@@ -45,7 +45,8 @@ body{
     font-style: normal;
     font-weight: 300;
     max-width: 481px;
-    max-height: 64px;   
+    max-height: 64px;
+    margin-bottom: 44px;   
 }
 
 .top_text>span{
@@ -84,6 +85,16 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border-width: 234.063px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #9C0332;
+    padding: 13px 74px 13px 74px;
+}
+
+.a_header:hover{
+    background: #EB443F;
 }
 
 .for{
@@ -172,5 +183,6 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 32px; 
+    text-decoration: none;
 }
 
