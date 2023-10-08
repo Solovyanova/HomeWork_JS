@@ -4,9 +4,9 @@ let b = 20;
 alert(b);
 
 
-let num;
-num = 2007;
-alert(num);
+let number;
+number = 2007;
+alert(number);
 
 let userName = 'Brendan Eyck';
 alert (userName);
@@ -37,3 +37,12 @@ if (rest === 0) {
 	console.log('делится с остатком ' + rest);
 }
 alert(`остаток от деления 1`);
+
+let num1 = 1;
+num1 += 5;
+num1 -= 3;
+num1 *= 7;
+num1 /= 3;
+alert(++num1)
+alert(--num1)
+alert(num1);
