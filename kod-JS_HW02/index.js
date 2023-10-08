@@ -46,3 +46,6 @@ num1 /= 3;
 alert(++num1)
 alert(--num1)
 alert(num1);
+
+let age = Number(prompt('Сколько вам лет?'));
+alert(`Вам ${age} лет?`)
