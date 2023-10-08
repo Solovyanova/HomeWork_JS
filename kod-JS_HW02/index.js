@@ -4,5 +4,10 @@ alert(a);
 a = 20;
 alert(a);
 
-let num = 2007;
+let num;
+num = 2007;
 alert(num);
+
+let userName = 'Brendan Eyck';
+alert (userName);
+
