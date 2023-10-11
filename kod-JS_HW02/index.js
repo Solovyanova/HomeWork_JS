@@ -78,7 +78,13 @@ console.log(firstuser);
 
 //9.2
 age.t = 28;
-console.log(age.t); //28
+console.log(age); //28
 
 //9.3
 delete city_of_residence;
+
+//9.4
+let info = prompt("Что вы хотите узнать о пользователе?");
+console.log(firstuser[info]); 
+
+//10
