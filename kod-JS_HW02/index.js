@@ -77,3 +77,7 @@ firstuser ["city_of_residence"] = 'London';
 console.log(firstuser); 
 
 //9.2
+age.t = 28;
+console.log(age.t); //28
+
+//9.3
