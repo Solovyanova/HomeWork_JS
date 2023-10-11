@@ -1,4 +1,4 @@
-* {
+.body {
   margin: 0;
   padding: 0;
 }
@@ -35,7 +35,7 @@ body {
   padding-top: 217px;
   padding-bottom: 32px;
   max-width: 789px;
-  min-height: 125px;
+  max-height: 125px;
 }
 
 .top_text {
@@ -200,10 +200,11 @@ body {
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
-    font-size: 64px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 238px;
   }
   .top_text {
     color: #FFF;
@@ -213,6 +214,7 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 22px;
+    max-width: 343px;
   }
   .top_text > span {
     color: #FFF;
@@ -228,21 +230,34 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal; 
     text-decoration: none;
-    width: 234.063px;
-    height: 48.603px;
+    width: 234px;
+    height: 48px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #9C0332;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 54px;
+    margin-right: 54px;
   }
   .for {
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     padding-bottom: 128px;
   }
-  .for_item_n {
+  .for_item_1 {
     grid-column: span 4;
-    max-width: 343px;
+    max-width: 300px;
   }
-}/*# sourceMappingURL=style.css.map */
+  .for_item_2 {
+    grid-column: span 4;
+    max-width: 300px;
+  }
+  .for_item_3 {
+    grid-column: span 4;
+    max-width: 300px;
+  }
+}
