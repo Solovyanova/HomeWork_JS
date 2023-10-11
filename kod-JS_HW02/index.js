@@ -38,14 +38,18 @@ if (rest === 0) {
 }
 alert(`остаток от деления 1`);
 
-let num1 = 1;
-num1 += 5;
-num1 -= 3;
-num1 *= 7;
-num1 /= 3;
-alert(++num1)
-alert(--num1)
-alert(num1);
+let num = 1;
+num += 5;
+alert(num += 5);
+num -= 3;
+alert(num -= 3);
+num *= 7;
+alert(num *= 7);
+num /= 3;
+alert(num /= 3);
+alert(++num)
+alert(--num)
+alert(num);
 
 let age = Number(prompt('Сколько вам лет?'));
 alert(`Вам ${age} лет?`)
