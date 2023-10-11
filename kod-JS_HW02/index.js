@@ -73,3 +73,7 @@ console.log(firstuser['age']); //28
 firstuser['isAdmin'] = true;
 
 //9.1
+firstuser ["city_of_residence"] = 'London';
+console.log(firstuser); 
+
+//9.2
