@@ -53,3 +53,13 @@ alert(num);
 
 let age = Number(prompt('Сколько вам лет?'));
 alert(`Вам ${age} лет?`)
+
+const firstuser = {
+	name: 'Vasiliy',
+	age: 28,
+	}
+console.log(firstuser.name); //'Vasiliy'
+console.log(firstuser.age); //28
+firstuser.isAdmin = true;
+console.log(firstuser['age']); //28
+firstuser['isAdmin'] = true;
