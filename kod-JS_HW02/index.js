@@ -88,3 +88,5 @@ let info = prompt("Что вы хотите узнать о пользовате
 console.log(firstuser[info]); 
 
 //10
+let getName = prompt("What is your name? ");
+alert(`Привет, ${getName}! `)
