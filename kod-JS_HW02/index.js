@@ -81,3 +81,4 @@ age.t = 28;
 console.log(age.t); //28
 
 //9.3
+delete city_of_residence;
