@@ -73,3 +73,16 @@ if (clientOS ==0) {
 alert ('Установите версию приложения для iOS по ссылке');
 } else {
 alert ('Установите версию приложения для Android по ссылке')
+}
+
+//9
+let yearofrelease = 2015
+if (clientOS ==0 && yearofrelease >= 2015) {
+alert ('Установите версию приложения для iOS по ссылке');
+} else if (clientOS !=0 && yearofrelease >= 2015) {
+alert ('Установите версию приложения для Android по ссылке');
+} else if (clientOS ==0 && yearofrelease < 2015) {
+alert ('Установите облегченную версию приложения для iOS по ссылке');
+}else if (clientOS !=0 && yearofrelease < 2015) {
+alert ('Установите облегченную версию приложения для Android по ссылке');
+}
