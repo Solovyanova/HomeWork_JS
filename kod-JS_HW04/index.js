@@ -29,3 +29,15 @@ let obj = {
 for (let key in obj) {
     console.log(`${key} - зарплата ${obj[key]} долларов.`);
 }
+
+//5
+let n = 1000;
+let num = 0;
+
+while(n >= 50) {
+    n /= 2;
+    num++;
+}
+
+console.log(n);
+console.log(num);
