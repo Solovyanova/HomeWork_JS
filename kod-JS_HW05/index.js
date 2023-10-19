@@ -26,3 +26,10 @@ function min(a, b) {
     alert(`число ${i} нечетное`);
   }
 
+  //3.1
+  function func (a) {
+	let square = a**2;
+	console.log (`Квадрат этого числа равен ${square}`);
+    }
+let a = Number (prompt ("Введите любое число, чтобы узнать квадрат этого числа"))
+func (a)
