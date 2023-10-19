@@ -7,8 +7,8 @@ function min(a, b) {
     }
   }
   
-  console.log (min(8, 4))
-  console.log (min(6, 6))
+alert (min(8, 4))
+alert (min(6, 6))
 
   //2
   let i = prompt("Введите любое число, чтобы узнать четное оно или нечетное")
@@ -42,3 +42,23 @@ let b = Number(prompt("Введите любое число, чтобы узна
 let result = func (b);
 alert (result);
 
+//4
+let age = Number(prompt('Сколько вам лет?'));
+function checkAge(age) {
+  if (age >= 12) {
+    return `Привет, друг!`;
+  } else if(age <= 0){
+return confirm `Вы ввели неправильное значение`;
+} else {
+    return `Добро пожаловать!`;
+  }
+}
+
+ checkAge (age) 
+if (age <= 12) {
+  alert( `Привет, друг!`);
+} else if (age <= 0) {
+alert (`Вы ввели неправильное значение`);
+} else {
+  alert(`Добро пожаловать!`);
+}
