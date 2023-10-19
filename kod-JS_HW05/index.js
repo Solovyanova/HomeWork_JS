@@ -33,3 +33,12 @@ function min(a, b) {
     }
 let a = Number (prompt ("Введите любое число, чтобы узнать квадрат этого числа"))
 func (a)
+
+//3.2
+function func(b) {
+	return b**2;
+}
+let b = Number(prompt("Введите любое число, чтобы узнать квадрат этого числа"))
+let result = func (b);
+alert (result);
+
