@@ -67,25 +67,14 @@ alert (`Вы ввели неправильное значение`);
 //5
 let firstNum = Number(prompt('Введите первое число'));
 let secondNum = Number(prompt('Введите второе число'));
-
-function calc(firstNum, secondNum) {
 let mult = (firstNum * secondNum);
 
-function chec(firstNum, secondNum){
- if (Number.isFinite($firstNum) && Number.isFinite($secondNum)) {
-    return true;
-  } else {
-    return false;
-  }
+if (isNaN(+firstNum) || isNaN(+secondNum)) {
+    return `Одно или оба значения не являются числом`;
+} else {
+    return firstNum * secondNum;
 }
- if (Number.isNaN()($firstNum) && Number.isNaN()($secondNum)) {
-    return(`Произведение введеных вами чисел равняется ${mult}`);
-  } else {
-    return(`Одно или оба значения не являются числом`);
-  }
-}
-result = func (calc);
-alert (result);
+
 
 //6
 let figure = Number(prompt("Введите цифру"));
@@ -99,3 +88,31 @@ return (`Переданный параметр не является число�
 }
 }
  cube(figure)
+
+ //7
+ functin getArea () {
+    return`Площадь круга ${3.14 * radius ** 2}`;
+    }
+    
+    function getPerimeter () {
+    return`Периметр окружности ${2 * 3.14 * radius}`
+    }
+    
+    
+    const circle1 = {
+    radius: 3,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+    }
+    
+    const circle2 = {
+    radius: 5,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+    }
+    
+    console.log(circle1.getArea());
+    console.log(circle1.getPerimeter());
+    console.log(circle2.getArea());
+    console.log(circle2.getPerimeter());
+    

@@ -13,5 +13,5 @@ function date(number) {
     }
 }
 let number = Number(prompt("Введите номер месяца!"));
-onclick = date()
+
 alert (date(number))
