@@ -67,8 +67,6 @@ alert (`Вы ввели неправильное значение`);
 //5
 let firstNum = Number(prompt('Введите первое число'));
 let secondNum = Number(prompt('Введите второе число'));
-let mult = (firstNum * secondNum);
-
 if (isNaN(+firstNum) || isNaN(+secondNum)) {
     return `Одно или оба значения не являются числом`;
 } else {
@@ -77,17 +75,15 @@ if (isNaN(+firstNum) || isNaN(+secondNum)) {
 
 
 //6
-let figure = Number(prompt("Введите цифру"));
-figure = Number(figure);
-let mult2 = figure ** 3;
-function cube(figure){
-if(figure == true){
-return (`$[figure] в кубе равняется $[mult2]`);
+let figure = Number (prompt("Введите число"));
+function cube(){
+if(isNaN(+figure)){
+return `$[figure] в кубе равняется ${figure ** 3}`;
 } else {
-return (`Переданный параметр не является числом`)
+return `Переданный параметр не является числом`;
 }
 }
- cube(figure)
+
 
  //7
  function getArea() {
