@@ -1,4 +1,4 @@
-let number = Number(prompt("Введите номер месяца!"));
+
 function date(number) {
     if (number === 1 || number === 2 || number=== 12) {
         return 'Зима';
@@ -12,4 +12,6 @@ function date(number) {
         return 'Такого месяца нет:(';
     }
 }
+let number = Number(prompt("Введите номер месяца!"));
+onclick = date()
 alert (date(number))

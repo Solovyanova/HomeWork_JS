@@ -33,6 +33,7 @@ alert (min(6, 6))
     }
 let a = Number (prompt ("Введите любое число, чтобы узнать квадрат этого числа"))
 func (a)
+console.log (func (a));
 
 //3.2
 function func(b) {
@@ -64,3 +65,24 @@ alert (`Вы ввели неправильное значение`);
 }
 
 //5
+let firstNum = Number(prompt('Введите первое число'));
+let secondNum = Number(prompt('Введите второе число'));
+
+function calc(firstNum, secondNum) {
+let mult = (firstNum * secondNum);
+
+function chec(firstNum, secondNum){
+ if (Number.isFinite($firstNum) && Number.isFinite($secondNum)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+ if (Number.isNaN()($firstNum) && Number.isNaN()($secondNum)) {
+    return(`Произведение введеных вами чисел равняется ${mult}`);
+  } else {
+    return(`Одно или оба значения не являются числом`);
+  }
+}
+result = func (calc);
+alert (result);

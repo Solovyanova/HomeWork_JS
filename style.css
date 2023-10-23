@@ -203,7 +203,6 @@ body {
   align-content: space-between;
   align-items: center;
   justify-content: center;
-  gap: 135px;
   padding-top: 282px;
   padding-bottom: 282px;
 }
@@ -216,6 +215,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 32px;
+  padding-right: 135px;
 }
 
 .title-seasons_game{
@@ -247,6 +247,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.button-seasons_game:hover{
+  background: #EB443F;
 }
 
 .picture_game1{
