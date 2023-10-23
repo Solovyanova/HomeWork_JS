@@ -86,3 +86,16 @@ function chec(firstNum, secondNum){
 }
 result = func (calc);
 alert (result);
+
+//6
+let figure = Number(prompt("Введите цифру"));
+figure = Number(figure);
+let mult2 = figure ** 3;
+function cube(figure){
+if(figure == true){
+return (`$[figure] в кубе равняется $[mult2]`);
+} else {
+return (`Переданный параметр не является числом`)
+}
+}
+ cube(figure)
