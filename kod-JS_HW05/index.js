@@ -12,19 +12,15 @@ alert (min(6, 6))
 
   //2
   let i = prompt("Введите любое число, чтобы узнать четное оно или нечетное")
-  function evenOrOdd(i) {
+  function evenOrOdd() {
     if (i % 2 === 0) {
       return true;
     } else {
       return false;
     }
   }
-  
-  if (i % 2 === 0) {
-    alert(`число ${i} четное`);
-  } else {
-    alert(`число ${i} нечетное`);
-  }
+  evenOrOdd(i)
+
 
   //3.1
   function func (a) {
@@ -56,42 +52,39 @@ return confirm `Вы ввели неправильное значение`;
 }
 
  checkAge (age) 
-if (age <= 12) {
-  alert( `Привет, друг!`);
-} else if (age <= 0) {
-alert (`Вы ввели неправильное значение`);
-} else {
-  alert(`Добро пожаловать!`);
-}
+
 
 //5
 let firstNum = Number(prompt('Введите первое число'));
 let secondNum = Number(prompt('Введите второе число'));
-if (isNaN(+firstNum) || isNaN(+secondNum)) {
-    return `Одно или оба значения не являются числом`;
-} else {
-    return firstNum * secondNum;
+function calc (){
+    if (isNaN(firstNum) || isNaN(secondNum)) {
+        return `Одно или оба значения не являются числом`;
+    } else {
+        return firstNum * secondNum;
+    }
 }
-
+calc (firstNum, secondNum)
 
 //6
-let figure = Number (prompt("Введите число"));
-function cube(){
-if(isNaN(+figure)){
-return `$[figure] в кубе равняется ${figure ** 3}`;
-} else {
+let figure = Number(prompt("Введите число"));
+function cube() {
+if (isNaN(figure)) {
 return `Переданный параметр не является числом`;
+} else {
+return `${figure} в кубе равняется ${figure ** 3}`;
 }
 }
+cube (figure) 
 
 
  //7
  function getArea() {
-    return`Площадь круга ${3.14 * radius ** 2}`;
+    return`Площадь круга ${3.14 * this.radius ** 2}`;
     }
     
     function getPerimeter () {
-    return`Периметр окружности ${2 * 3.14 * radius}`
+    return`Периметр окружности ${2 * 3.14 * this.radius}`
     }
     
     
