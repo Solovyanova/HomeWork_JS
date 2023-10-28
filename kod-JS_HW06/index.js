@@ -14,7 +14,7 @@ console.log (index);
 
 //3
 const beens = [1, 3, 5, 10, 20];
-const bennns2 = beens.join(" ");
+const beens2 = beens.join(" ");
 console.log (beens2);
 
 //4
@@ -37,3 +37,12 @@ console.log (array);
 const letter = [9, 8, 7, 'a', 6, 5];
 letter.sort((a, b) => a - b).pop();
 console.log (letter);
+
+//7
+
+const question = Number(prompt("Угадай число)))"));
+if (letter.includies(question)) {
+    alert ("Угадал");
+} else {
+    alert("Не угадал");
+}
