@@ -262,6 +262,28 @@ body {
   display: none;
 }
 
+.picture_game2-mobile{
+  display: none;
+}
+
+.remember{
+  display: flex;
+}
+
+.picture_game2{
+  padding-right: 135px;
+}
+
+.remember_words{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
 @media (max-width: 376px) {
   .center {
     padding-left: 16px;
@@ -430,6 +452,10 @@ body {
   }
   
   .picture_game1{
+    display: none;
+  }
+
+  .picture_game2{
     display: none;
   }
 
