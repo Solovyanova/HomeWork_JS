@@ -46,7 +46,7 @@ if (vbn.includies(questionVbn)) {
 } else {
     alert("Не угадал");
 }
-//выводит Identifier 'question' has already been declared
+//выводит vbn.includies is not a function
 
 //8
 const  asd = "abcdef";
@@ -65,4 +65,9 @@ console.log(flatZxc);
 const qwe = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (let i = 0; i<qwe.length-1; i++) {
     console.log(qwe[i] + qwe[i + 1]);
+}
+
+//11
+function getSquareNumber(qwe){
+    return qwe.map((num) => num * num);
 }
