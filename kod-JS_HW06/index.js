@@ -53,3 +53,10 @@ const  asd = "abcdef";
 const reversedAsd = asd.split("").reverse().join("");
 console.log (reversedAsd);
 
+//9
+const zxc = [
+    [1, 2, 3,],
+    [4, 5, 6]
+];
+const flatZxc = zxc.flat();
+console.log(flatZxc);
