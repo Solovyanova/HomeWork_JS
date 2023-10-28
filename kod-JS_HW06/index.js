@@ -27,3 +27,8 @@ for (let i = 0; i < 3; i++) {
     rar.push(inRar);
 }
 console.log (rar);
+
+//5
+const array = [9, 8, 7, 'a', 6, 5];
+array.push(2, 2, 2);
+console.log (array);
