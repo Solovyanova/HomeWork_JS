@@ -40,8 +40,8 @@ console.log (letter);
 
 //7
 const vbn = [9, 8, 7, 6, 5];
-const questionVbn = Number(prompt("Угадай число)))"));
-if (vbn.includies(questionVbn)) {
+const question = Number(prompt("Угадай число)))"));
+if (vbn.includies(question)) {
     alert ("Угадал");
 } else {
     alert("Не угадал");
@@ -71,3 +71,10 @@ for (let i = 0; i<qwe.length-1; i++) {
 function getSquareNumber(qwe){
     return qwe.map((num) => num * num);
 }
+
+//12
+function getLengthWords (word){
+    return word.map((word) => word.length);
+}
+word = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+
