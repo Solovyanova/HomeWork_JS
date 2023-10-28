@@ -13,3 +13,6 @@ const index = figures.indexOf(4);
 console.log (index);
 
 //3
+const beens = [1, 3, 5, 10, 20];
+const bennns2 = beens.join(" ");
+console.log (beens2);
