@@ -16,3 +16,14 @@ console.log (index);
 const beens = [1, 3, 5, 10, 20];
 const bennns2 = beens.join(" ");
 console.log (beens2);
+
+//4
+let rar = [];
+for (let i = 0; i < 3; i++) {
+    let inRar = [];
+    for (let u = 0; u<3; u++) {
+        inRar.push(1);
+    }
+    rar.push(inRar);
+}
+console.log (rar);
