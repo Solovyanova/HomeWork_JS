@@ -39,14 +39,14 @@ letter.sort((a, b) => a - b).pop();
 console.log (letter);
 
 //7
-const vbn = [9, 8, 7, 6, 5];
-const question = Number(prompt("Угадай число)))"));
-if (vbn.includies(question)) {
+const arr1 = [9, 8, 7, 6, 5];
+const ques = Number(prompt("Угадай число: )))"));
+if (arr1.includes(ques)) {
     alert ("Угадал");
 } else {
     alert("Не угадал");
 }
-//выводит vbn.includies is not a function
+
 
 //8
 const  asd = "abcdef";
@@ -78,3 +78,16 @@ function getLengthWords (word){
 }
 word = ['слово', '', 'слог', 'длинное предложение', 'буква'];
 
+//13
+function filterPositive(array) {
+  let result = [];
+  for (let i = 0; i< array.length; i++) {
+    if (array[i] < 0){
+        result.push(array[i]);
+    }
+  }
+  return result;
+  }
+  
+  filterPositive([-1, 0, 5, -10, 56]); 
+  filterPositive([-25, 25, 0, -1000, -2]); 
