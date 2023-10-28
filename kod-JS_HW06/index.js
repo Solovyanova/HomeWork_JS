@@ -39,9 +39,9 @@ letter.sort((a, b) => a - b).pop();
 console.log (letter);
 
 //7
-
-const question = Number(prompt("Угадай число)))"));
-if (letter.includies(question)) {
+const vbn = [9, 8, 7, 6, 5];
+const questionVbn = Number(prompt("Угадай число)))"));
+if (vbn.includies(questionVbn)) {
     alert ("Угадал");
 } else {
     alert("Не угадал");
@@ -60,3 +60,9 @@ const zxc = [
 ];
 const flatZxc = zxc.flat();
 console.log(flatZxc);
+
+//10
+const qwe = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i<qwe.length-1; i++) {
+    console.log(qwe[i] + qwe[i + 1]);
+}
