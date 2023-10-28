@@ -29,6 +29,8 @@ for (let i = 0; i < 3; i++) {
 console.log (rar);
 
 //5
-const array = [9, 8, 7, 'a', 6, 5];
+const array = [1, 1, 1];
 array.push(2, 2, 2);
 console.log (array);
+
+//6
