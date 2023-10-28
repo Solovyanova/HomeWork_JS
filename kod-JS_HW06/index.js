@@ -46,3 +46,10 @@ if (letter.includies(question)) {
 } else {
     alert("Не угадал");
 }
+//выводит Identifier 'question' has already been declared
+
+//8
+const  asd = "abcdef";
+const reversedAsd = asd.split("").reverse().join("");
+console.log (reversedAsd);
+
