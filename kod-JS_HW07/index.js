@@ -20,10 +20,24 @@ console.log(Math.round(number));
 
 //4
 let nums = [52, 53, 49, 77, 21, 32];
-consominle.log(Math.min(...nums));
+console.log(Math.min(...nums));
 console.log(Math.floor(...nums));
 
 //5
 function randomNumbers(n) {
     console.log (Math.floor(Math.random() * 10) + 1);
+}
+
+//6
+function randomNumbers(n) {
+    let result = [];
+    for (let i = 0; i < n/2; i++) {
+        result.push (Math.floor(Math.random() * n));
+    }
+    return result;
+}
+
+//7
+function randomBetween (min, max) {
+    return Math.random() * (max - min +1);
 }
