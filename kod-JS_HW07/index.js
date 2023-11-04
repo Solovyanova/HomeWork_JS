@@ -49,3 +49,37 @@ console.log(new Date());
 let currentDate = new Date();
 currentDate.setDate (currentDate.getDate() + 73);
 console.log(currentDate);
+
+//10
+function formatDate (date) {
+    let days = [
+        "Воскресенье",
+        "Понедельник",
+        "Вторник",
+        "Среда",
+        "Четверг",
+        "Пятница",
+        "Суббота",
+    ];
+    let months = [
+        "Января",
+        "Февраля",
+        "Марта",
+        "Апреля",
+        "Мая",
+        "Июня",
+        "Июля",
+        "Августа",
+        "Сентября",
+        "Октября",
+        "Ноября",
+        "Декабря",
+    ];
+    return`Дата: ${date.getDate()} ${
+        months [date.getMonth()]
+    } ${date.getFullYear()
+    } - это ${
+        days[date.getDay()]
+    }\nВремя: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds}`
+}
+console.log (formatDate(new Date()));
