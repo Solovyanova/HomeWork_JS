@@ -22,3 +22,8 @@ console.log(Math.round(number));
 let nums = [52, 53, 49, 77, 21, 32];
 consominle.log(Math.min(...nums));
 console.log(Math.floor(...nums));
+
+//5
+function randomNumbers(n) {
+    console.log (Math.floor(Math.random() * 10) + 1);
+}
