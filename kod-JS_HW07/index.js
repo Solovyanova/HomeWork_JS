@@ -17,3 +17,8 @@ let number = 32.58884;
 console.log(Math.floor(number));
 console.log(Math.ceil(number));
 console.log(Math.round(number));
+
+//4
+let nums = [52, 53, 49, 77, 21, 32];
+consominle.log(Math.min(...nums));
+console.log(Math.floor(...nums));
