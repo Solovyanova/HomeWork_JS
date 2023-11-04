@@ -44,3 +44,8 @@ function randomBetween (min, max) {
 
 //8
 console.log(new Date());
+
+//9
+let currentDate = new Date();
+currentDate.setDate (currentDate.getDate() + 73);
+console.log(currentDate);
