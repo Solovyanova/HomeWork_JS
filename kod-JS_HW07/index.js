@@ -9,7 +9,7 @@ searchStart = (['яблоко', 'груша', 'гриб', 'огурец'], 'гр
 searchStart = (['Дом', 'Банк', 'Больница', 'Театр'], 'Кино');
 
 function filterStrings(searchStart, startStr) {
-    return array.filter((item) => item.toLowerCase().startsWith(strtStr.toLowerCase()));
+    return searchStart.filter((item) => item.toLowerCase().startsWith(startStr.toLowerCase()));
 } 
 
 //3
@@ -80,6 +80,6 @@ function formatDate (date) {
     } ${date.getFullYear()
     } - это ${
         days[date.getDay()]
-    }\nВремя: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds}`
+    }\nВремя: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
 }
 console.log (formatDate(new Date()));

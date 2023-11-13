@@ -12,7 +12,9 @@ function getSeason(number) {
         return 'Такого месяца нет:(';
     }
 }
-function getRemember(fruits) {
+
+
+function getRemember() {
     let fruits = [
         "Яблоко",
         "Груша",
@@ -22,6 +24,8 @@ function getRemember(fruits) {
         "Апельсин",
         "Мандарин",
     ];
+    alert(fruits);
+
     fruits = fruits.sort(() => Math.random() - 0.5);
     let firstGuess = prompt("Чему равнялся первый элемент массива?");
     let lastGuess = prompt ("Чему равнялся последний элемент массива?");

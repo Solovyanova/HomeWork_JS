@@ -69,4 +69,24 @@
         grid-column: span 4;
         max-width: 343px;
     }
+
+    .picture_game1{
+        display: none;
+    }
+
+    .picture_game2{
+        display: none;
+    }
+
+    .picture_game1-mobile{
+        max-width: 344px;
+        max-height: 236px;
+        display: block;
+    }
+
+    .picture_game2-mobile{
+        max-width: 344px;
+        max-height: 236px;
+        display: block;
+    }
 }
