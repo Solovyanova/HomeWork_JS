@@ -186,6 +186,101 @@ body{
     text-decoration: none;
 }
 
+.picture_game1 {
+    max-width: 485px;
+    max-height: 333px;
+    flex-shrink: 0;
+}
 
+.picture_game1-mobile{
+    display: none;
+}
+
+.picture_game2{
+    max-width: 485px;
+    max-height: 333px;
+    flex-shrink: 0;
+    padding-right: 135px;
+}
+
+.picture_game2-mobile{
+    display: none;
+}
+
+.title-seasons_game{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-seasons_game{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; 
+}
+
+.button-seasons_game{
+    width: 234.063px;
+    height: 48.603px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #9C0332;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-seasons_game:hover{
+    border-radius: 30px;
+    background: #EB443F;
+}
+
+.seasons_games{
+    padding-right: 135px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.seasons{
+    padding-top: 362px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+
+.remember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-top: 515px;
+    padding-bottom: 240px;
+}
+
+.remember_words{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 32px;
+
+}
 
 @import  "mobile";
+  

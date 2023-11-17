@@ -1,15 +1,16 @@
-@media (max-width: 375px){
+@media (max-width: 376px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
-    .center{
-        padding-left: 16px;
-        padding-right: 16px;
+
+    .header{
+        padding-bottom: 238px;
     }
 
     .title{
-        display: flex;
-        width: 788.778px;
-        height: 125.007px;
-        flex-direction: column;
+
         justify-content: center;
         flex-shrink: 0;
         color: #FFF;
@@ -23,15 +24,62 @@
         height: 77.436px;
         flex-direction: column;
         justify-content: center;
+
+        display: flex;
+        width: 343px;
+        height: 77.436px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 
+    .link{
+        margin-left: 70px;
+    }
+
+    .for {
+        padding-top: 128px;
+        padding-bottom: 128px;
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+      }
+      .for_item_n {
+        grid-column: 1 / -1;
+        
+        max-width: 343px;
+        width: 343px;
+        height: 300px;
+      }
+
     .top_text{
-        color: #FFF;
+        width: 343px;
         text-align: center;
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
         font-weight: 300;
+        line-height: 22px;      
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
         line-height: 22px;
     }
 
@@ -59,17 +107,8 @@
         background: #9C0332;
     }
 
-    .for{
-        grid-template-columns: repeat(4, 1fr);
-        gap: 32px;
-        padding-bottom: 128px;
-    }
 
-    .for_item_n{
-        grid-column: span 4;
-        max-width: 343px;
-    }
-
+    
     .picture_game1{
         display: none;
     }
@@ -89,4 +128,61 @@
         max-height: 236px;
         display: block;
     }
+    .seasons{
+        padding-top: 51px;
+        align-items: flex-start;
+    }
+
+    .seasons_game{
+        padding-bottom: 63px;
+    }
+   
+    .button-seasons_game{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .title-seasons_game{
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .text-seasons_game{
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+        width: 343px;
+    }
+
+    .seasons{
+        padding-top: 178px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .remember{
+        padding-top: 136px;
+        padding-bottom: 90px;
+        padding-top: 178px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
+
+

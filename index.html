@@ -8,8 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 <body>
     <div class="top center">
@@ -18,7 +16,7 @@
                 <h1 class="title">Добро пожаловать<br> на мой сайт !</h1>
                 <h2 class="top_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span>поехали</span> и <span>приступай</span></h2>
             </section>
-            <a class="a_header" href="#">Поехали!</a>
+           <div class="link"> <a class="a_header" href="#">Поехали!</a></div>
         </header>
         <div class="for">
             <a class="a_igra for_item for_item_1" href="#section1">Игра 1</a>
@@ -47,20 +45,20 @@
     <div class="remember">
         <section class="remember">
             <h2 id="section2"></h2>
+            <div class="remember_words">
+                <section class="remember_words">
+                <h2 class="title-seasons_game">Запомни слова</h2>
+                <h3 class="text-seasons_game">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</h3>
+                <button onclick="alert(getRemember())
+                        " class="button-seasons_game">Играть!</button>
+                </section>
+            </div>
             <div class="picture_game2">
                 <img src="./img/remember.svg" alt="запомни слова">
             </div>
             <div class="picture_game2-mobile">
                 <img src="./img/remember_mobile.svg" alt="запомни слова">
             </div>
-        <div class="remember_words">
-            <section class="remember_words">
-            <h2 class="title-seasons_game">Запомни слова</h2>
-            <h3 class="text-seasons_game">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</h3>
-            <button onclick="alert(getRemember())
-                    " class="button-seasons_game">Играть!</button>
-            </section>
-        </div>
         </section>
     </div>
     
