@@ -12,3 +12,29 @@ function getSeason(number) {
         return 'Такого месяца нет:(';
     }
 }
+
+
+function getRemember() {
+    let fruits = [
+        "Яблоко",
+        "Груша",
+        "Дыня",
+        "Виноград",
+        "Персик",
+        "Апельсин",
+        "Мандарин",
+    ];
+    alert(fruits);
+
+    fruits = fruits.sort(() => Math.random() - 0.5);
+    let firstGuess = prompt("Чему равнялся первый элемент массива?");
+    let lastGuess = prompt ("Чему равнялся последний элемент массива?");
+    
+    if (firstGuess===fruits[0] && lastGuess===fruits[fruits.lenth - 1]) {
+        alert("Поздравляем! Вы угадали оба слова!");
+    } else if(firstGuess===fruits[0] || lastGuess===fruits[fruits.lenth - 1]) {
+        alert("Вы были близки к победе!"); 
+    } else {
+        alert("Вы не угадали ни одного слова.");
+    }
+}
